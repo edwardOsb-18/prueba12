@@ -1,0 +1,73 @@
+*{box-sizing: border-box;
+margin: 0;}
+.grid{
+display: grid;
+background-color: yellow;
+
+grid-template-columns: 350px 350px 350px;
+}
+
+.section{
+
+}
+
+.parte1{
+    background-color: red;
+    width: 200px;
+}
+
+.parte2{
+    background-color: pink;
+    width: 200px;
+}
+.parte3{
+    width: 200px;
+    background-color: green;
+}
+
+.parte4{
+    background-color: orange;
+    width: 200px;
+}
+
+.parte5{
+    background-color: peru;
+    width: 200px;
+}
+.parte6{
+    width: 200px;
+    background-color: violet;
+}
+.header{
+background-color: yellow;
+/* grid-area: header; */
+}
+
+body{
+    box-sizing: border-box;
+    display: grid;
+min-height: 100vh;
+ grid-template-columns: 3fr 1fr ;
+/* grid-template-rows:min-content 1fr 2rem;
+grid-template-areas: 'header header header'
+                    'footer aside aside'
+                    'main aside aside';  */
+
+}
+.main{
+background-color: orchid;
+
+
+}
+
+.aside{
+background-color: greenyellow;
+
+}
+
+
+.footer{
+    
+background-color: lightblue;
+
+}
